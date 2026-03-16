@@ -17,7 +17,7 @@ export function AboutSection() {
         <div className="relative">
           <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden">
             <Image
-              src="/images/doctor-placeholder.jpg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5-JD6R6sBTtNHYp37bonzrBerQ5iSv7D.png"
               alt="Dra. Maggy Oronoz, especialista en dermatología y medicina estética"
               fill
               className="object-cover object-top"

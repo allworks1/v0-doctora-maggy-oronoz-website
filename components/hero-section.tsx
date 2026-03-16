@@ -21,11 +21,6 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto flex flex-col items-center gap-6">
-        {/* Eyebrow */}
-        <p className="text-xs tracking-[0.35em] uppercase text-primary font-sans">
-          Dermatología · Medicina Estética · Medicina Orthomolecular
-        </p>
-
         {/* Heading */}
         <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light leading-tight text-foreground text-balance">
           Dermatología y medicina estética para el cuidado integral de tu piel
@@ -55,7 +50,6 @@ export function HeroSection() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground">
-        <span className="text-xs tracking-widest uppercase font-sans">Explorar</span>
         <span className="block w-px h-10 bg-primary animate-pulse" />
       </div>
     </section>
