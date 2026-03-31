@@ -37,8 +37,8 @@ export function Navbar() {
             src="/images/logo.png"
             alt="Dra. Maggy Oronoz"
             width={176}
-            height={80}
-            className="w-36 lg:w-44 h-auto object-contain"
+            height={56}
+            className="h-9 lg:h-11 w-auto object-contain"
             priority
           />
         </Link>

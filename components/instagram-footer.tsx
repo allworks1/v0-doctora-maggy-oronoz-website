@@ -68,11 +68,11 @@ export function Footer() {
         {/* Brand */}
         <div className="flex flex-col gap-4">
           <Image
-            src="/images/logo.png"
+            src="/images/logo-dark.jpeg"
             alt="Dra. Maggy Oronoz"
-            width={160}
-            height={72}
-            className="w-32 h-auto object-contain invert brightness-0 invert"
+            width={200}
+            height={90}
+            className="w-40 h-auto object-contain rounded-sm"
           />
           <p className="font-sans text-sm text-primary-foreground/60 leading-relaxed">
             Especialista en dermatología, medicina estética y medicina
