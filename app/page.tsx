@@ -6,6 +6,7 @@ import { ResultsSection } from "@/components/results-section"
 import { PhilosophySection } from "@/components/philosophy-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { InstagramSection, Footer } from "@/components/instagram-footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
       <TestimonialsSection />
       <InstagramSection />
       <Footer />
+      <WhatsAppButton />
     </main>
   )
 }

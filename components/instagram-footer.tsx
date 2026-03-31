@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const INSTAGRAM_URL =
   "https://www.instagram.com/dra.maggy_oronoz?igsh=MXVwcm1iOXRzcWx0ag%3D%3D"
 
@@ -65,14 +67,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid sm:grid-cols-3 gap-10">
         {/* Brand */}
         <div className="flex flex-col gap-4">
-          <div>
-            <p className="font-serif text-2xl font-light tracking-widest">
-              Dra. Maggy Oronoz
-            </p>
-            <p className="font-sans text-[10px] tracking-[0.3em] uppercase text-primary-foreground/60 mt-1">
-              Dermatología & Medicina Estética
-            </p>
-          </div>
+          <Image
+            src="/images/logo.png"
+            alt="Dra. Maggy Oronoz"
+            width={160}
+            height={72}
+            className="w-32 h-auto object-contain invert brightness-0 invert"
+          />
           <p className="font-sans text-sm text-primary-foreground/60 leading-relaxed">
             Especialista en dermatología, medicina estética y medicina
             orthomolecular.

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import Link from "next/link"
 
 const navLinks = [
@@ -31,13 +32,15 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
-        <Link href="#inicio" className="flex flex-col leading-tight">
-          <span className="font-serif text-xl lg:text-2xl font-light tracking-widest text-foreground">
-            Dra. Maggy Oronoz
-          </span>
-          <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground font-sans">
-            Dermatología & Medicina Estética
-          </span>
+        <Link href="#inicio" className="flex items-center">
+          <Image
+            src="/images/logo.png"
+            alt="Dra. Maggy Oronoz"
+            width={176}
+            height={80}
+            className="w-36 lg:w-44 h-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}
