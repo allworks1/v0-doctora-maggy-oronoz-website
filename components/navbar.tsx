@@ -24,11 +24,7 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-background/95 backdrop-blur-md shadow-sm border-b border-border`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
@@ -38,7 +34,7 @@ export function Navbar() {
             alt="Dra. Maggy Oronoz"
             width={176}
             height={56}
-            className="h-9 lg:h-11 w-auto object-contain"
+            className="h-11 lg:h-15 w-auto object-contain"
             priority
           />
         </Link>
