@@ -12,7 +12,7 @@ export function HeroSection() {
           src="/images/hero-bg.jpg"
           alt="Fondo estético dermatología"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center grayscale"
           priority
         />
         {/* Warm white overlay for legibility */}
