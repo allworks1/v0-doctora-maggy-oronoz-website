@@ -12,7 +12,7 @@ export function HeroSection() {
           src="/images/hero-bg.jpg"
           alt="Fondo estético dermatología"
           fill
-          className="object-cover object-center grayscale"
+          className="object-cover object-center"
           priority
         />
         {/* Warm white overlay for legibility */}
@@ -42,7 +42,7 @@ export function HeroSection() {
           href="https://www.instagram.com/dra.maggy_oronoz?igsh=MXVwcm1iOXRzcWx0ag%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground text-xs tracking-widest uppercase rounded-full hover:opacity-90 transition-opacity font-sans"
+          className="mt-2 inline-flex items-center gap-2 px-8 py-4 bg-red-400 text-primary-foreground text-xs tracking-widest uppercase rounded-full hover:opacity-90 transition-opacity font-sans"
         >
           Ver Instagram
         </a>

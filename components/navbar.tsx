@@ -50,14 +50,6 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="https://www.instagram.com/dra.maggy_oronoz?igsh=MXVwcm1iOXRzcWx0ag%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 bg-primary text-primary-foreground text-xs tracking-widest uppercase rounded-full hover:opacity-90 transition-opacity font-sans"
-          >
-            Instagram
-          </a>
         </nav>
 
         {/* Mobile hamburger */}
@@ -95,14 +87,6 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="https://www.instagram.com/dra.maggy_oronoz?igsh=MXVwcm1iOXRzcWx0ag%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-5 py-2 bg-primary text-primary-foreground text-xs tracking-widest uppercase rounded-full text-center hover:opacity-90 transition-opacity font-sans"
-          >
-            Ver Instagram
-          </a>
         </nav>
       </div>
     </header>
